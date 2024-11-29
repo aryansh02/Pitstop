@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from "react";
 import ProductCard from "./ProductCard";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
-import Image from 'next/image';
+
 
 
 export default function FlashSales() {
