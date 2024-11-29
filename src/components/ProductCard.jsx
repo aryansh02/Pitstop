@@ -1,6 +1,8 @@
 "use client";
 
 import { FaHeart, FaEye } from "react-icons/fa";
+import Image from 'next/image';
+
 
 export default function ProductCard({ product }) {
   return (
@@ -21,7 +23,7 @@ export default function ProductCard({ product }) {
         </button>
       </div>
       {/* Image */}
-      <img
+      <Image
         src={product.image}
         alt={product.name}
         className="w-full h-56 object-cover rounded-t-lg"

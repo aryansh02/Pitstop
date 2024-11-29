@@ -3,6 +3,8 @@
 import React, { useEffect, useState } from "react";
 import ProductCard from "./ProductCard";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import Image from 'next/image';
+
 
 export default function FlashSales() {
   const products = [
@@ -90,7 +92,7 @@ export default function FlashSales() {
         {/* "Today's" */}
         <div className="flex items-center gap-2">
           <div className="w-2 h-8 bg-green-500"></div>
-          <h3 className="text-green-500 text-lg font-semibold">Today's</h3>
+          <h3 className="text-green-500 text-lg font-semibold">Today&apos;s</h3>
         </div>
 
         {/* "Flash Sales" with Timer and Arrows */}

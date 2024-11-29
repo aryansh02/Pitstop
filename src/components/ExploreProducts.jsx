@@ -43,7 +43,7 @@ export default function ExploreProducts() {
       reviews: 145,
       image: "/curology.jpg",
     },
-
+  
     // Second row products
     {
       id: 5,
@@ -53,6 +53,7 @@ export default function ExploreProducts() {
       rating: 4.5,
       reviews: 65,
       image: "/electriccar.jpg",
+      colors: ["#FF0000", "#00FF00"], // Red, Green
     },
     {
       id: 6,
@@ -62,6 +63,7 @@ export default function ExploreProducts() {
       rating: 5.0,
       reviews: 35,
       image: "/soccercleats.jpg",
+      colors: ["#FFFF00", "#00FF00"], // Yellow, Green
     },
     {
       id: 7,
@@ -71,6 +73,7 @@ export default function ExploreProducts() {
       rating: 4.5,
       reviews: 55,
       image: "/gamepad.jpg",
+      colors: ["#000000", "#00FF00"], // Black, Green
     },
     {
       id: 8,
@@ -80,8 +83,10 @@ export default function ExploreProducts() {
       rating: 4.5,
       reviews: 55,
       image: "/jacket.jpg",
+      colors: ["#000000", "#00FF00"], // Black, Green
     },
   ];
+  
 
   return (
     <section className="py-8 bg-white">

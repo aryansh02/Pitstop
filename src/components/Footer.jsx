@@ -1,5 +1,7 @@
 "use client";
 
+import Image from 'next/image';
+
 export default function Footer() {
   return (
     <footer className="bg-black text-white py-10">
@@ -61,18 +63,18 @@ export default function Footer() {
           <p className="text-gray-400 text-sm">Save $3 with App New User Only</p>
           {/* QR Code and App Links */}
           <div className="flex items-center gap-4">
-            <img
+            <Image
               src="/qrcode.png"
               alt="QR Code"
               className="w-16 h-16"
             />
             <div className="flex flex-col gap-2">
-              <img
+              <Image
                 src="/googleplay.png"
                 alt="Google Play"
                 className="w-32"
               />
-              <img
+              <Image
                 src="/appstore.png"
                 alt="App Store"
                 className="w-32"
